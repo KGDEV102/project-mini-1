@@ -380,3 +380,19 @@
 }
 /* section-5 */
 
+/* section-6 */
+.section-6{
+    margin-bottom: 50px;
+}
+.section-6 .inner-box{
+    display: flex;
+
+}
+.section-6 .inner-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-6 .inner-tittle{
+    padding:25px;
+}
