@@ -386,13 +386,74 @@
 }
 .section-6 .inner-box{
     display: flex;
-
+    width:100%;
+    height: 100%;
+    
 }
 .section-6 .inner-wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.section-6 .box-item{
+   width: 20%;
+   height: 342px;
+   border: 1px solid #F0F2F5;
+    
+
 }
 .section-6 .inner-tittle{
-    padding:25px;
+    color: var(--color-one);
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-6 .box-item .item-image{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.section-6 .box-item .item-image img{
+    width: 100%;
+    height: 200px;
+    transition: all 0.3s;
+    
+  
+}
+/* khi hover vào ảnh thì nó zoom ra vô */
+.section-6 .box-item:hover img{
+    transform: scale(1.1);
+}
+/* Các item trong box khi hover vào thì thành bàn tay nên thêm curson: pointer */
+.section-6 .box-item{
+    cursor: pointer;
+}
+.section-6 .box-item .item-content{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.section-6 .item-content{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.section-6 .item-content .item-name{
+    font-size: 18px;
+    color: var(--color-one);
+
+
+}
+.section-6 .item-content .item-price{
+    font-size: 25px;
+    color: var(--color-one);
+    font-weight: 550;
+}
+.section-6 .item-content .item-rate i{
+    font-size: 13px;
+    color:var(--color-two);
+    font-weight: 500;
 }
