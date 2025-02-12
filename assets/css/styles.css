@@ -457,3 +457,50 @@
     color:var(--color-two);
     font-weight: 500;
 }
+/*section-7*/
+.section-7{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    background: #F0F2F5;
+    width: 100%;
+    height:382px;
+   
+}
+.section-7 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.section-7 .inner-tittle{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 540;
+    color: var(--color-one);
+    text-align: center;
+}
+.section-7 .input{
+    padding: 15px;
+    padding-right: 200px;
+    border-radius: 45px;
+    border:none;
+    margin-right: 10px;
+}
+.section-7 .input{
+    font-size: 18px;
+    text-align: left;
+    color:var(--text-color);
+}
+.section-7 .button-two{
+    padding: 15px 45px;
+   
+}
+.section-7 .input:focus{
+    outline: none;
+    border: none;
+    /* sử dụng cái này để khi focus vào cái form nó mất đi cái border  */
+}
+
+/*section-7*/
